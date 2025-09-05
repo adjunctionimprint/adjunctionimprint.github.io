@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adjunction</title>
@@ -128,6 +132,9 @@
 </head>
 <body>
     <article>
+        <div>
+    $$\Sigma_f \dashv f^* \dashv \Pi_f$$
+</div>
         <h1>Adjunction</h1>
         <div class="subtitle">
             <span class="imprint-mark">(imprint)</span>
@@ -159,6 +166,26 @@
                 <li>PDF of text available <a href="/schmid_on_diagonal_method.pdf">here</a></li>
             </ul>
         </div>
+
+    <!-- Basic adjoint triple -->
+    <p>The fundamental adjoint triple:</p>
+    <p>$$\Sigma_f \dashv f^* \dashv \Pi_f$$</p>
+    
+    <!-- For weakening/projection -->
+    <p>For weakening π: Γ.A → Γ:</p>
+    <p>$$\Sigma_\pi \dashv \pi^* \dashv \Pi_\pi$$</p>
+    
+    <!-- Detailed description -->
+    <p>Where:</p>
+    <ul>
+        <li>$$f^*$$ is substitution (pullback)</li>
+        <li>$$\Sigma_f$$ is dependent sum (left adjoint)</li>
+        <li>$$\Pi_f$$ is dependent product (right adjoint)</li>
+    </ul>
+    
+    <!-- Alternative inline notation -->
+    <p> \(\Sigma_f \dashv f^* \dashv \Pi_f\) represents the adjoint triple.</p>
+
         
         <div class="locations">
             Based in Chicago, US and Todmorden, UK
